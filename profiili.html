@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Opintoverkon opiskelijaprofiili ja opintojen yhteenveto.">
+	<title>Profiili – Opintoverkko</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<a class="skip-link" href="#sisalto">Siirry sisältöön</a>
+	<div class="app-shell">
+		<header class="app-header">
+			<a class="brand" href="index.html" aria-label="Opintoverkko, aloitus"><img class="brand-logo" src="images/opintoverkko-logo.png" alt="" width="768" height="768"><span>Opintoverkko</span></a>
+			<nav class="top-nav" aria-label="Päänavigaatio">
+				<a href="index.html">Aloitus</a><a href="kalenteri.html">Kalenteri</a><a href="kurssit.html">Kurssit</a><a href="profiili.html" aria-current="page">Profiili</a>
+			</nav>
+			<div class="header-actions">
+				<a class="settings-icon-link" href="asetukset.html" aria-label="Avaa asetukset" title="Asetukset">
+					<svg class="settings-gear" aria-hidden="true" viewBox="0 0 24 24"><path d="M19.14 12.94c.04-.31.06-.62.06-.94s-.02-.63-.07-.94l2.03-1.58a.5.5 0 0 0 .12-.64l-1.92-3.32a.5.5 0 0 0-.61-.22l-2.39.96a7.3 7.3 0 0 0-1.63-.94l-.36-2.54a.5.5 0 0 0-.5-.42h-3.84a.5.5 0 0 0-.5.42l-.36 2.54c-.59.23-1.14.55-1.63.94l-2.39-.96a.5.5 0 0 0-.61.22L2.62 8.84a.5.5 0 0 0 .12.64l2.03 1.58c-.05.31-.07.63-.07.94s.02.63.07.94l-2.03 1.58a.5.5 0 0 0-.12.64l1.92 3.32c.12.21.37.3.61.22l2.39-.96c.49.39 1.04.71 1.63.94l.36 2.54c.04.24.25.42.5.42h3.84c.25 0 .46-.18.5-.42l.36-2.54c.59-.23 1.14-.55 1.63-.94l2.39.96c.24.09.49 0 .61-.22l1.92-3.32a.5.5 0 0 0-.12-.64l-2.02-1.58ZM12 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"/></svg>
+				</a>
+			</div>
+		</header>
+		<main class="page-content" id="sisalto">
+			<header class="page-heading">
+				<div><p class="eyebrow">Omat tiedot</p><h1>Profiili</h1><p>Opintojen yhteenveto ja opiskelijan tiedot.</p></div>
+				<span class="tag blue">Lukuvuosi 2026–2027</span>
+			</header>
+
+			<section class="card" aria-labelledby="oma-profiili">
+				<div class="profile-hero">
+					<div class="avatar large" aria-hidden="true" data-profile-initials>EP</div>
+					<div><p class="eyebrow">Opiskelija</p><h2 id="oma-profiili" data-profile-name>Eemil Puupponen</h2><p><span data-profile-program>Tietojenkäsittely, tradenomi</span> · Haaga-Helia</p></div>
+				</div>
+				<div class="profile-stat-grid" aria-label="Opintojen yhteenveto">
+					<div class="stat"><strong>5</strong><span>kurssia käynnissä</span></div>
+					<div class="stat"><strong>18</strong><span>opintopistettä</span></div>
+					<div class="stat"><strong>72 %</strong><span>tavoitteesta</span></div>
+				</div>
+			</section>
+
+			<section class="card" aria-labelledby="eteneminen">
+				<div class="card-title-row"><div><span class="eyebrow">Lukuvuoden tavoite</span><h2 id="eteneminen">Opintojen eteneminen</h2></div><span class="tag green">Hyvällä mallilla</span></div>
+				<div class="progress-row"><span>25 opintopistettä tavoitteena</span><strong>18 / 25 op</strong></div>
+				<progress value="18" max="25" aria-label="Opintojen eteneminen: 18 opintopistettä 25:stä">18 / 25 op</progress>
+				<p>Jatka omaan tahtiin ja muista varata aikaa myös palautumiselle.</p>
+			</section>
+
+			<section class="card" aria-labelledby="profiilitiedot">
+				<div class="card-title-row"><div><span class="eyebrow">Opiskelijatili</span><h2 id="profiilitiedot">Profiilitiedot</h2></div></div>
+				<div class="profile-list">
+					<div class="profile-item"><div><strong>Koulutus</strong><span data-profile-program>Tietojenkäsittely, tradenomi</span></div><span aria-hidden="true">›</span></div>
+					<div class="profile-item"><div><strong>Opiskelumuoto</strong><span data-profile-study-mode>Monimuoto-opiskelu</span></div><span aria-hidden="true">›</span></div>
+					<div class="profile-item"><div><strong>Opintojen aloitus</strong><span>Syksy 2026</span></div><span aria-hidden="true">›</span></div>
+				</div>
+			</section>
+
+			<section class="card" aria-labelledby="omat-kurssit">
+				<div class="card-title-row"><div><span class="eyebrow">Tällä hetkellä</span><h2 id="omat-kurssit">Omat kurssit</h2></div><a href="kurssit.html">Kaikki →</a></div>
+				<div class="profile-list">
+					<div class="profile-item"><div><strong>Ohjelmoinnin perusteet</strong><span>5 op · 62 % valmis</span></div><span class="tag green">Käynnissä</span></div>
+					<div class="profile-item"><div><strong>Tietokannat ja SQL</strong><span>5 op · 48 % valmis</span></div><span class="tag green">Käynnissä</span></div>
+					<div class="profile-item"><div><strong>Digitaalinen viestintä</strong><span>5 op · 35 % valmis</span></div><span class="tag green">Käynnissä</span></div>
+				</div>
+				<a class="button-link blue full" href="kurssit.html">Siirry kursseihin</a>
+			</section>
+
+			<p class="note">Profiilin nimi ja opintotiedot ovat esimerkkisisältöä. Sivusto ei tallenna eikä hae henkilökohtaisia tietoja.</p>
+		</main>
+		<nav class="bottom-nav" aria-label="Päänavigaatio">
+			<a href="index.html"><span class="nav-icon" aria-hidden="true">⌂</span>Aloitus</a><a href="kalenteri.html"><span class="nav-icon" aria-hidden="true">▦</span>Kalenteri</a><a href="kurssit.html"><span class="nav-icon" aria-hidden="true">▤</span>Kurssit</a><a href="profiili.html" aria-current="page"><span class="nav-icon" aria-hidden="true">◉</span>Profiili</a>
+		</nav>
+	</div>
+	<script src="app-settings.js"></script>
+</body>
+</html>
