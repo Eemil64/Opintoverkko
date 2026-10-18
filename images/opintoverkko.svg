@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" role="img" aria-labelledby="title desc">
+  <title id="title">Opiskelua yhdessä</title>
+  <desc id="desc">Kolme opiskelijaa tekee muistiinpanoja saman pöydän ääressä.</desc>
+  <rect width="560" height="420" rx="32" fill="#eaf1fb"/>
+  <circle cx="448" cy="88" r="38" fill="#c9f2df"/>
+  <circle cx="98" cy="315" r="28" fill="#c9f2df"/>
+  <path d="M83 318c16-49 40-72 73-72s57 23 73 72v47H83z" fill="#174ea6"/>
+  <path d="M105 258c8-29 27-43 51-43s43 14 51 43c-11 13-29 20-51 20s-40-7-51-20" fill="#d99569"/>
+  <path d="M126 212c1-27 15-42 33-42 19 0 33 16 33 42-9 9-22 14-33 14s-24-5-33-14" fill="#453432"/>
+  <path d="M322 303c12-52 36-78 69-78s57 26 69 78v62H322z" fill="#42a581"/>
+  <path d="M348 242c5-27 20-41 43-41 22 0 37 14 42 41-10 13-25 20-42 20-18 0-33-7-43-20" fill="#b97852"/>
+  <path d="M353 199c1-25 16-40 38-40 22 0 36 15 37 40-10 11-24 16-38 16s-28-5-37-16" fill="#263a52"/>
+  <path d="M190 293c9-44 30-66 60-66s51 22 60 66v72H190z" fill="#e5ad42"/>
+  <path d="M213 238c4-25 17-38 37-38s33 13 37 38c-9 11-22 17-37 17s-28-6-37-17" fill="#f0bd8d"/>
+  <path d="M215 197c2-24 14-37 35-37s34 14 35 37c-9 8-20 12-35 12s-26-4-35-12" fill="#5b413b"/>
+  <path d="M75 341h410l-30 35H106z" fill="#123b78"/>
+  <path d="M130 319h82l13 21h-95zM293 308h76l14 24h-88z" fill="#fff"/>
+  <path d="M142 326h57M306 316h49" stroke="#9eb2cc" stroke-linecap="round" stroke-width="4"/>
+  <path d="M233 296l16-28 17 28M247 287h11" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path d="M378 119h50M403 94v50" stroke="#174ea6" stroke-linecap="round" stroke-width="8"/>
+  <path d="M90 126c0-12 10-22 22-22h72c12 0 22 10 22 22v31c0 12-10 22-22 22h-38l-22 18v-18h-12c-12 0-22-10-22-22z" fill="#fff"/>
+  <circle cx="124" cy="142" r="5" fill="#174ea6"/>
+  <circle cx="148" cy="142" r="5" fill="#174ea6"/>
+  <circle cx="172" cy="142" r="5" fill="#174ea6"/>
+</svg>
